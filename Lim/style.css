@@ -1,13 +1,29 @@
 body{
+  font-family: 'Poppins', 'Syne', sans-serif;
   background-image: url('./background.jpg');
   background-size: cover;
 }
 
+ul{
+  list-style-type: square;
+  list-style-position: inside;
+  margin: 0px;
+  padding: 5%;
+}
+
 img.logo{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   height : 100px;
 }
 
+  .titolo{
+    color: green;
+  }
+
 .main{
+  padding: 50px;
   background-color: rgba(120,120,120,0.5);
   border-radius: 10px;
   position:absolute;
