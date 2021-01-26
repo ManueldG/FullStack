@@ -1,0 +1,81 @@
+header
+{
+
+}
+
+
+body {
+}
+
+
+.container{
+  display: inline-block;
+  }
+
+
+.articolo{
+  height: 400px;
+  width: 300px;
+  position:relative;
+}
+
+#articolo1{
+  display: inline-block;
+  background-image:url("img/pd1.jpg");
+
+}
+
+
+a{
+  width: 400px;
+  height: 300px;
+  }
+
+.cuore{
+  opacity: 0;
+  position: absolute;
+  bottom: 0% ;
+  left: 50%;
+
+}
+.text {
+  color: red;
+  font-size: 64px;
+
+}
+
+.articolo:hover .cuore{
+  opacity: 1;
+  position: absolute;
+  bottom: 0px;
+
+}
+
+
+#articolo2{
+  display: inline-block;
+  background-image:url("img/pd2.jpg");
+  position: relative;
+  top:0px;
+}
+#articolo3{
+  display: inline-block;
+  background-image:url("img/pd3.jpg");
+  position: relative;
+  top:0px;
+}
+div .sconto {
+  background-color: green;
+  position: absolute;
+  right:0px;
+  top: 0px;
+}
+
+#sconto2{
+  background-color: red;
+  }
+
+footer
+{
+
+}

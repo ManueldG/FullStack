@@ -1,0 +1,50 @@
+header
+{
+
+}
+
+
+body {
+}
+
+
+.contenitore-verde{
+  height: 400px;
+  width: 80%;
+  background-color: green;
+  position: relative;
+}
+
+
+/*inizio riga messaggio non letto*/
+.contenitore-blue{
+  background-color: blue;
+  width: 185px;
+  height: 185px;
+  display: inline-block;
+  position: relative;
+  }
+
+.contenitore-red{
+  background-color: red;
+  width: 35px;
+  height: 35px;
+  }
+.uno{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    }
+
+.due{
+  position: relative;
+  left:20px;
+
+
+}
+
+
+footer
+{
+
+}

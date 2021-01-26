@@ -1,0 +1,62 @@
+*.left-content{
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #cecece;
+}
+
+.container{
+  width: 1000px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.hv-center{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+header, footer{
+  height: 10vh;
+  text-align: center;
+  line-height: 10vh;
+  background-color: yellow;
+}
+
+  main::after{
+    clear:both;
+    content:'';
+    display: table;
+
+  }
+
+
+  .left-content{
+    float: left;
+    background-color: blue;
+    width: 20%;
+
+  }
+
+  .content{
+    float: left;
+    background-color: white;
+    width: 50%;
+
+  }
+  .right-content{
+    float: left;
+    background-color: green;
+    width: 30%;
+
+  }
+
+  {}
+  {}
+  {}
+  {}
+  {}

@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.background{
+  height: 100vh;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e9/20160806-DSCF1573-BalTone.jpg');
+  position: relative;
+  background-size: cover;
+}
+
+#Amsterdam{
+  background-image: url('https://www.holland.com/upload_mm/8/2/7/68467_fullimage_amsterdam_canal2_1360x.jpg');
+}
+
+#NewYork{
+  background-image: url('https://images.musement.com/cover/0002/49/thumb_148242_cover_header.jpeg?q=50&fit=crop&auto=format&w=1441&h=400');
+}
+
+.layover{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.main-text
+{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size:60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
