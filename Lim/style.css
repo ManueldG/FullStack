@@ -1,3 +1,9 @@
+*{
+  padding: 0px ;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 body{
   font-family: 'Poppins', 'Syne', sans-serif;
   background-image: url('./background.jpg');
@@ -8,17 +14,24 @@ ul{
   list-style-type: square;
   list-style-position: inside;
   margin: 0px;
-  padding: 5%;
+  padding: 0.5%;
+}
+
+li{
+  margin: 1vw;
 }
 
 .descrition{
   color: white;
 }
 
-.symbol{
-  display: inline-block;
+.location{
+  display: block;
   font-size: 0.7vw;
 }
+
+
+
 .barra1{
   background-color:orange;
   height: 20px;
@@ -44,33 +57,33 @@ img.logo{
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  height : 5vw;
+  height : 5.5vw;
 }
 
   .titolo{
     text-align: center;
     color: #8bff6b;
+    font-size: 1.5vw;
   }
 
   .status{
-    height: 30%;
+
     text-align: center;
     background-color: #8bff6b;
   }
 
   .button{
-
+    font-size: 0.7vw;
     border: solid 1px;
     background-color: white;
     color:black;
-    margin: 1%;
-    padding: 0.1%;
     display: inline-block;
+
   }
 
 .main{
-  width: 60%;
-  padding: 50px;
+  width: 63%;
+  padding: 55px;
   background-color: rgba(0,0,0,0.5);
   border-radius: 10px;
   position:absolute;
