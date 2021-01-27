@@ -11,20 +11,67 @@ ul{
   padding: 5%;
 }
 
+.descrition{
+  color: white;
+}
+
+.symbol{
+  display: inline-block;
+  font-size: 0.7vw;
+}
+.barra1{
+  background-color:orange;
+  height: 20px;
+  width: 30%;
+  border-radius: 0.3vw;
+}
+
+.barra2{
+  background-color:green;
+  height: 20px;
+  width: 60%;
+  border-radius: 0.3vw;
+}
+
+.barra3{
+  background-color:red;
+  height: 20px;
+  width: 20%;
+  border-radius: 0.3vw;
+}
+
 img.logo{
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  height : 100px;
+  height : 5vw;
 }
 
   .titolo{
+    text-align: center;
     color: #8bff6b;
   }
 
+  .status{
+    height: 30%;
+    text-align: center;
+    background-color: #8bff6b;
+  }
+
+  .button{
+
+    border: solid 1px;
+    background-color: white;
+    color:black;
+    margin: 1%;
+    padding: 0.1%;
+    display: inline-block;
+  }
+
 .main{
+  width: 60%;
   padding: 50px;
-  background-color: rgba(120,120,120,0.5);
+  background-color: rgba(0,0,0,0.5);
   border-radius: 10px;
   position:absolute;
   top: 50%;
