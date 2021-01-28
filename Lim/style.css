@@ -12,12 +12,15 @@ body{
 
 ul{
   list-style-type: square;
-  list-style-position: inside;
+  list-style-position: outside;
   margin: 0px;
-  padding: 0.5%;
+  padding-top: 5%;
+  margin-bottom : 5vw;
+
 }
 
 li{
+  list-style-position: inside;
   margin: 1vw;
 }
 
@@ -67,7 +70,10 @@ img.logo{
   }
 
   .status{
-
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
     text-align: center;
     background-color: #8bff6b;
   }
@@ -78,12 +84,14 @@ img.logo{
     background-color: white;
     color:black;
     display: inline-block;
-
+    vertical-align: middle;
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;
   }
 
 .main{
+  padding-left: 5vw;
   width: 63%;
-  padding: 55px;
   background-color: rgba(0,0,0,0.5);
   border-radius: 10px;
   position:absolute;
